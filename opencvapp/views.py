@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 
 def hehe(request):
-    return HttpResponse('안녕하세요! 시작해보겠습니다!')
+    return render(request, 'opencvapp/index.html')
